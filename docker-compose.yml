@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  vscode-web:
+    image: ghcr.io/dbz2k/vscode-web-docker:main
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config/config
